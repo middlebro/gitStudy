@@ -9,6 +9,9 @@
 using namespace std;
 
 int main(){
-    int A(3), B(2)
-    cout << A - B <<endl;
+    int A, B;
+    while (cin >> A >> B && 0 < A && B < 10) {
+        cout << A - B <<endl;
+    }
+    return 0;
 }
