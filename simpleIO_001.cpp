@@ -11,5 +11,4 @@ using namespace std;
 int main(){
     int A(3), B(2)
     cout << A - B <<endl;
-    return 0;
 }
